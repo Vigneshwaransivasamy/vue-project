@@ -1,0 +1,23 @@
+application: gabby-chat
+version: vue-project
+# module: model-link-119510
+api_version: 1
+runtime: php55
+threadsafe: true
+instance_class: F1
+handlers:
+  - url: "/static/(.*\\.(js|svg|ttf|map|css))$"
+    application_readable: false
+    static_files: "dist/static/\\1"
+    require_matching_file: false
+    upload: 'dist/static/(.*)'
+  - url: '/'
+    application_readable: false
+    static_files: dist/index.html
+    require_matching_file: false
+    upload: dist/index.html
+automatic_scaling:
+  min_idle_instances: automatic
+  max_idle_instances: automatic
+  min_pending_latency: automatic
+  max_pending_latency: automatic

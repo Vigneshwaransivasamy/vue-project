@@ -1,0 +1,638 @@
+/******************* Theme Library*************************
+  ------------------- Font Colors ------------------------
+  CLASSNAME                                  HEXCODE/COLOR
+  dark-color-one
+  dark-color-two
+  dark-color-three
+  dark-color-four
+  dark-color-five
+  light-color-one
+  light-color-two
+  light-color-three
+  light-color-four
+  light-color-five
+  ------------------- Background Colors ------------------
+  CLASSNAME                                  HEXCODE/COLOR
+  dark-backgrond-one
+  dark-background-two
+  dark-background-three
+  dark-background-four
+  light-background-one
+  light-background-two
+  light-background-three
+  light-background-four
+  --------------------- Font Size -------------------------
+  CLASSNAME                                 SIZE IN PIXLES
+  .font-smallest
+  .font-smaller
+  .font-small
+  .font-large
+  .font-larger
+  .font-largest
+
+  -------------------- Positioning ------------------------
+  CLASSNAME                          DISPLAY
+  .block         =>  block
+  .inline-block  =>  inline-block
+  .inline        =>  inline
+  .hide          =>  none
+  ---------------------------------------------------------
+  CLASSNAME                          POSITION
+  .absolute      =>  absolute
+  .relative      =>  relative
+  .fixed         =>  fixed
+  ---------------------------------------------------------
+  CLASSNAME         FLOAT
+  .float-left    => left
+  .float-right   => right
+  --------------------- Spacing ---------------------------
+  CLASSNAME      BORDER UNIT
+  .no-border              => 0px
+  .border-small           => 1px
+  .border-medium          => 2px
+  .border-large           => 3px
+  .border-top-large       => 1px solid
+  .border-right-small     => 1px solid
+  .border-bottom-small    => 1px solid
+  .border-left-small      => 1px solid
+  .border-top-medium      => 2px solid
+  .border-right-medium    => 2px solid
+  .border-bottom-medium   => 2px solid
+  .border-left-medium     => 2px solid
+  .border-top-large       => 3px solid
+  .border-right-large     => 3px solid
+  .border-bottom-large    => 3px solid
+  .border-left-large      => 3px solid
+  ---------------------------------------------------------
+  CLASSNAME      MARGIN/PADDING UNIT 
+  .margin-smallest           => 5px
+  .margin-smaller            => 10px
+  .margin-small              => 15px
+  .margin-large              => 20px
+  .margin-larger             => 25px
+  .margin-largest            => 30px
+  .margin-top-smallest       => 5px
+  .margin-right-smallest     => 5px
+  .margin-bottom-smallest    => 5px
+  .margin-left-smallest      => 5px
+  .margin-top-smaller        => 10px
+  .margin-right-smaller      => 10px
+  .margin-bottom-smaller     => 10px
+  .margin-left-smaller       => 10px
+  .margin-top-small          => 15px
+  .margin-right-small        => 15px
+  .margin-bottom-small       => 15px
+  .margin-left-small         => 15px
+  .margin-top-large          => 20px
+  .margin-right-large        => 20px
+  .margin-bottom-large       => 20px
+  .margin-left-large         => 20px
+  .margin-top-larger         => 25px
+  .margin-right-larger       => 25px
+  .margin-bottom-larger      => 25px
+  .margin-left-larger        => 25px
+  .margin-top-largest        => 30px
+  .margin-right-largest      => 30px
+  .margin-bottom-largest     => 30px
+  .margin-left-largest       => 30px
+  .margin-auto               => auto
+  NOTE: replace "margin" with "padding" for padding styles
+  e.g: .padding-small  => padding: 5px
+
+  Update the theme while adding adding a new styles
+************************************************************/
+
+
+@font-face {font-family: 'BrandonGrotesque-Bold';src: url('/css/fonts/BrandonGrotesque-Bold.otf') format('truetype');}
+@font-face {font-family: 'BrandonGrotesque-Medium';src: url('/css/fonts/BrandonGrotesque-Medium.otf') format('truetype');}
+@font-face {font-family: 'BrandonGrotesque-Regular';src: url('/css/fonts/BrandonGrotesque-Medium.otf') format('truetype');}
+
+
+/**
+* Theme Library Styles
+*/
+
+/**
++-------------------------------------------+
+|           Theme Font Family               |
++-------------------------------------------+
+*/
+
+.t-font-bold{font-family: 'BrandonGrotesque-Bold'}
+.t-font-medium{font-family: 'BrandonGrotesque-Medium'}
+.t-font-regular{font-family: 'BrandonGrotesque-Regular'}
+
+/**
++-------------------------------------------+
+|           Theme Font Colors               |
++-------------------------------------------+
+*/
+.t-dark-color-one{color: #24374a} /* dark blue */
+.t-dark-color-two{color: #333333} /* black */
+.t-dark-color-three{color: #666666} /* dark gray */
+.t-dark-color-four{color: #DD4336} /* Red */
+.t-light-color-one{color: #ffffff} /* white */
+.t-light-color-two{color: #df5e23} /* orange */
+.t-light-color-three{color: #39933b} /* green */
+.t-light-color-four{color: #2489FF} /* blue */
+.t-light-color-five{color: #898989} /* gray */
+.t-light-color-six{color: #ababab}
+.t-ligh-opacity { background : rgba(223, 94, 35, 0.2);}
+
+/**
++-------------------------------------------+
+|           Theme Background colors         |
++-------------------------------------------+
+*/
+
+.t-dark-background-one{background-color: #24374a} /* dark blue */
+.t-dark-background-two{}
+.t-dark-background-three{}
+.t-dark-background-four{}
+.t-light-background-one{background-color: #ffffff} /* white */
+.t-light-background-two{background-color: #df5e23} /* orange */
+.t-light-background-three{background-color: #F0F0F0} /* faded white */
+.t-light-background-four{background-color: #F7F7F7} /* grey light */
+.t-light-background-five{background-color: #F6F8FB}
+.t-light-background-six{background-color: #48EF4D} /*light grenn*/
+.t-light-background-seven{background-color: #53B3F9} /*light blue*/
+.t-light-background-eight{background-color: #AEAEAE} /*gray */
+.t-light-background-nine{background-color: #FA5B4E} /*light orange*/
+.t-light-background-ten{background-color: #F2F4F7 } 
+/**
++-------------------------------------------+
+|              Theme Font Size              |
++-------------------------------------------+
+*/
+  
+.t-font-size-zero{font-size: 0;}
+.t-font-size-smallest{ font-size: 13px; }
+.t-font-size-small{font-size: 15px}
+.t-font-size-small-two { font-size: 16px; }
+.t-font-size-large{font-size: 18px}
+.t-font-size-larger{font-size: 20px}
+.t-font-size-largest{font-size: 22px}
+.t-font-size-largest-high{font-size:28px}
+/*.t-font-size-largest{font-size: 26px;}*/
+
+/**
++-------------------------------------------+
+|                Positioning                |
++-------------------------------------------+
+*/
+
+.block{display:block}
+.inline-block{display: inline-block}
+.inline{display: inline}
+.hide{display:none}
+
+.float-left{float: left}
+.float-right{float: right}
+.clear-both{clear:both;}
+
+.relative{position: relative}
+.absolute{position: absolute}
+.fixed{position: fixed}
+
+/**
++-------------------------------------------+
+|                   Border                  |
++-------------------------------------------+
+*/
+
+.no-border{border:0px}
+.border-small{border: 1px solid}
+.border-medium{border: 2px solid}
+.border-large{border: 3px solid}
+
+.border-top-small{border-top: 1px solid}
+.border-right-small{border-right: 1px solid}
+.border-bottom-small{border-bottom: 1px solid}
+.border-left-small{border-left: 1px solid}
+
+.border-top-medium{border-top: 2px solid}
+.border-right-medium{border-right: 2px solid}
+.border-bottom-medium{border-bottom: 2px solid}
+.border-left-medium{border-left: 2px solid}
+
+.border-top-large{border-top: 3px solid}
+.border-right-large{border-right: 3px solid}
+.border-bottom-large{border-bottom: 3px solid}
+.border-left-large{border-left: 3px solid}
+
+/**
++-------------------------------------------+
+|                border-color               |
++-------------------------------------------+
+*/
+.border-color-ef, .t-light-border-color-one {border-color: #EFEFEF}
+.border-color-d-one {border-color: #D1D1D1}
+.border-color-d-two{border-color: #48EF4D} /*light grenn*/
+.border-color-d-three{border-color: #53B3F9} /*light blue*/
+.border-color-d-four{border-color: #AEAEAE} /*gray */
+.border-color-d-five{border-color: #FA5B4E} /*orange*/
+.border-color-d-six{border-color: #df5e23} 
+/**
++-------------------------------------------+
+|                   Margin                  |
++-------------------------------------------+
+*/
+.margin-auto{margin: auto}
+.no-margin{margin: 0px}
+
+.margin-smallest{margin: 5px}
+.margin-smaller{margin: 10px}
+.margin-small{margin: 15px}
+.margin-large{margin: 20px}
+.margin-larger{margin: 25px}
+.margin-largest{margin: 30px}
+
+.margin-top-smallest{margin-top: 5px}
+.margin-right-smallest{margin-right: 5px}
+.margin-bottom-smallest{margin-bottom: 5px}
+.margin-left-smallest{margin-left: 5px}
+
+.margin-top-smaller{margin-top: 10px}
+.margin-right-smaller{margin-right: 10px}
+.margin-bottom-smaller{margin-bottom: 10px}
+.margin-left-smaller{margin-left: 10px}
+
+.margin-top-small{margin-top: 15px}
+.margin-right-small{margin-right: 15px}
+.margin-bottom-small{margin-bottom: 15px}
+.margin-left-small{margin-left: 15px}
+
+.margin-top-large{margin-top: 20px}
+.margin-right-large{margin-right: 20px}
+.margin-bottom-large{margin-bottom: 20px}
+.margin-left-large{margin-left: 20px}
+
+.margin-top-larger{margin-top: 25px}
+.margin-right-larger{margin-right: 25px}
+.margin-bottom-larger{margin-bottom: 25px}
+.margin-left-larger{margin-left: 25px}
+
+.margin-top-largest{margin-top: 30px}
+.margin-right-largest{margin-right: 30px}
+.margin-bottom-largest{margin-bottom: 30px}
+.margin-left-largest{margin-left: 30px}
+.margin-left-largest1{margin-left: 40px}
+
+.margin-top-bottom-smallest{margin-top: 5px;margin-bottom: 5px}
+.margin-top-bottom-smaller{margin-top: 10px;margin-bottom: 10px}
+.margin-top-bottom-small{margin-top: 15px;margin-bottom: 15px}
+.margin-top-bottom-large{margin-top: 20px;margin-bottom: 20px}
+.margin-top-bottom-larger{margin-top: 25px;margin-bottom: 25px}
+.margin-top-bottom-largest{margin-top: 30px;margin-bottom: 30px}
+
+.margin-right-left-smallest{margin-right: 5px;margin-left: 5px}
+.margin-right-left-smaller{margin-right: 10px;margin-left: 10px}
+.margin-right-left-small{margin-right: 15px;margin-left: 15px}
+.margin-right-left-large{margin-right: 20px;margin-left: 20px}
+.margin-right-left-larger{margin-right: 25px;margin-left: 25px}
+.margin-right-left-largest{margin-right: 30px;margin-left: 30px}
+
+/**
++-------------------------------------------+
+|                  Padding                  |
++-------------------------------------------+
+*/
+
+.no-padding{padding: 0px}
+.padding-smallest{padding: 5px}
+.padding-smaller{padding: 10px}
+.padding-small{padding: 15px}
+.padding-large{padding: 20px}
+.padding-larger{padding: 20px}
+.padding-larger-1{padding: 25px;}
+.padding-largest{padding: 30px}
+
+.padding-top-smallest{padding-top: 5px}
+.padding-right-smallest{padding-right: 5px}
+.padding-bottom-smallest{padding-bottom: 5px}
+.padding-left-smallest{padding-left: 5px}
+
+.padding-top-smaller{padding-top: 10px}
+.padding-right-smaller{padding-right: 10px}
+.padding-bottom-smaller{padding-bottom: 10px}
+.padding-left-smaller{padding-left: 10px}
+
+.padding-top-small{padding-top: 15px}
+.padding-right-small{padding-right: 15px}
+.padding-bottom-small{padding-bottom: 15px}
+.padding-left-small{padding-left: 15px}
+
+.padding-top-large{padding-top: 20px}
+.padding-right-large{padding-right: 20px}
+.padding-bottom-large{padding-bottom: 20px}
+.padding-left-large{padding-left: 20px}
+
+.padding-top-larger{padding-top: 25px}
+.padding-right-larger{padding-right: 25px}
+.padding-bottom-larger{padding-bottom: 25px}
+.padding-left-larger{padding-left: 25px}
+
+.padding-top-largest{padding-top: 30px}
+.padding-right-largest{padding-right: 30px}
+.padding-bottom-largest{padding-bottom: 30px}
+.padding-left-largest{padding-left: 30px}
+
+.padding-top-bottom-smallest{padding-top: 5px;padding-bottom: 5px}
+.padding-top-bottom-smaller{padding-top: 10px;padding-bottom: 10px}
+.padding-top-bottom-small{padding-top: 15px;padding-bottom: 15px}
+.padding-top-bottom-large{padding-top: 20px;padding-bottom: 20px}
+.padding-top-bottom-larger{padding-top: 25px;padding-bottom: 25px}
+.padding-top-bottom-largest{padding-top: 30px;padding-bottom: 30px}
+
+.padding-right-left-smallest{padding-right: 5px;padding-left: 5px}
+.padding-right-left-smaller{padding-right: 10px;padding-left: 10px}
+.padding-right-left-small{padding-right: 15px;padding-left: 15px}
+.padding-right-left-large{padding-right: 20px;padding-left: 20px}
+.padding-right-left-larger{padding-right: 25px;padding-left: 25px}
+.padding-right-left-largest{padding-right: 30px;padding-left: 30px}
+
+
+/**************** word-wrap ***********/
+.word-wrap {word-wrap: break-word;}
+
+/************ font-size *************/
+.font-smallest { font-size: 15px; }
+
+/**
+* Box Shadow
+*/
+.shadow-space {margin: 5px}
+.shadow-space .material-view{box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.3)}
+
+/**
+* vertical-align
+*/
+.vertical-align-top { vertical-align: top; }
+.vertical-align-bottom { vertical-align: bottom; }
+.vertical-align-middle { vertical-align: middle; }
+
+/**
+* background color 
+*/
+.background-ef {
+  background: #efefef;
+}
+/**
+* Cursor
+**/
+
+.pointer{
+  cursor: pointer
+}
+
+.border-box{
+  box-sizing: border-box !important; /** overwriting because search input field have to rechecck */
+}
+
+/**
+* Opacity
+*/
+.vanish{
+  opacity: 0!important;
+   -webkit-transition: opacity 0.3s ease-out;
+      -moz-transition: opacity 0.3s ease-out;
+        -o-transition: opacity 0.3s ease-out;
+           transition: opacity 0.3s ease-out;
+			  z-index: -1;
+}
+.appear{
+  opacity: 1!important;
+   -webkit-transition: opacity 0.3s ease-out;
+      -moz-transition: opacity 0.3s ease-out;
+        -o-transition: opacity 0.3s ease-out;
+           transition: opacity 0.3s ease-out;
+			z-index: 1;
+}/** overwriting because element with id might not work */
+
+/**
+* Transition
+*/
+
+.transition-all{
+   -webkit-transition: all 0.3s ease-out;
+      -moz-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+           transition: all 0.3s ease-out;
+}
+
+.transition-color{
+   -webkit-transition: color 0.3s ease-out;
+      -moz-transition: color 0.3s ease-out;
+        -o-transition: color 0.3s ease-out;
+           transition: color 0.3s ease-out;
+}
+
+
+/**
+* Width
+*/
+
+.full-width{width: 100%}
+.one-by-third-width {width: 33%;}
+.six-by-ten-width {width: 60%;}
+.seven-by-ten-width {width: 70%;}
+.four-by-ten-width {width: 40%;}
+.three-by-ten-width {width: 30%;}
+.twenty-five { width: 25%; }
+
+/**
+* Overflow style
+*/
+
+.hide-overflow{overflow: hidden}
+.stop-scroll{
+  -webkit-overflow-scrolling: touch;
+  position: fixed;
+  overflow: hidden !important; /** It should be imposed **/
+}
+
+/**
+* Text Alignment
+*/
+
+.align-left{text-align: left}
+.align-right{text-align: right}
+.align-center{text-align: center}
+
+.vertical-align-top{vertical-align: top}
+.vertical-align-middle{vertical-align: middle}
+.vertical-align-bottom{vertical-align: bottom}
+
+.text-capitalize { text-transform: capitalize; }
+
+.underline{text-decoration: underline}
+
+/**
+* Icon created via html
+*/
+
+.clear {
+  position: relative;
+  overflow: hidden;
+}
+.pointing-left-icon{
+  width: 8px;
+  height: 8px;
+  transform: rotate(45deg);
+  border: 1px solid;
+  border-top: 0px;
+  border-right: 0px;
+  border-color: #898989;
+}
+
+.select-field-info {
+  top: 6px;
+  height: 40px;
+  right: 1px;
+  line-height: 38px;
+  padding-left: 15px;
+  width: 70px;
+  border-left: 1px solid #ababab;
+  background: #efefef;
+  pointer-events: none;
+}
+
+.select-field-icon {
+  margin: 0px 0px 0px 25px;
+  height: 11px !important;
+}
+
+
+/**
+* Assets Used
+*/
+.product-image {
+	background-image: url(/admin/image/quikav-package.png);
+	width: 55px;
+	height: 55px;
+}
+.logo-image{
+  background-image: url(/admin/image/logo.png);
+  height: 70px;
+  display: inline-block;
+  width: 120px;
+  background-repeat: no-repeat;
+  background-size: auto 55px;
+  background-position: -1px 5px;
+}
+
+.logo-image-small {
+  background-image: url(/admin/image/logo-v1.png);
+  height: 70px;
+  display: inline-block;
+  width: 120px;
+  background-repeat: no-repeat;
+  background-size: 123px 49px;
+  background-position: -1px 10px;
+}
+
+.logo-image.big{
+  width: 168px;
+  height: 75px;
+  background-size: auto;
+}
+.selected {
+	border-bottom: 3px solid #df5e23;
+  color: #df5e23;
+}
+.selected-blue {
+	border-bottom: 3px solid #24374A;
+	color: #24374A;
+}
+.disabled {opacity: 0.6;pointer-events: none}
+.pointer-events_none { pointer-events: none; }
+.theme-sprite {
+  background-image: url(/admin/image/sprite.png);
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+.theme-sprite.search-icon {
+  background-position: -10px -10px;
+  width: 25px;
+  height: 25px;
+  right: 20px;
+  top: 13px;
+  position: absolute;
+}
+
+.theme-sprite.close-icon {
+  background-position: -9px -79px;
+  width: 15px;
+  height: 15px;
+}
+
+.theme-sprite.caret-down-icon{
+  width: 8px;
+  height: 12px;
+  background-position: -10px -61px;
+}
+
+.theme-sprite.caret-left-icon{
+  height: 14px;
+  width: 16px;
+  background-position: -4px -100px;
+}
+
+.theme-sprite.mail-icon {
+  background-position: -6px -144px;
+  width: 18px;
+  height: 14px;
+}
+
+.theme-sprite.phone-icon {
+  background-position: -5px -123px;
+  width: 18px;
+  height: 14px;
+}
+
+.theme-sprite.caret-right-icon {
+  background-position: -10px -41px;
+  width: 6px;
+  height: 17px;
+  top: 16px;
+  position: absolute;
+  right: 0px;
+}
+
+.theme-sprite.tick-icon {
+  background-position: -6px -160px;
+  width: 13px;
+  height: 14px;
+}
+.theme-sprite.add-icon {
+	background-position: -6px -176px;
+	width: 16px;
+	height: 16px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),not all, not all, not all,only screen and (min-resolution: 192dpi),only screen and (min-resolution: 2dppx){
+  .logo-image{
+    background-image: url(/admin/image/logo.svg);
+  }
+  .logo-image-small {
+	background-image: url(/admin/image/logo-v1.svg);
+  }
+  .theme-sprite {
+    background-image: url(/admin/image/sprite.svg);
+  }
+}
+
+/**
+* Standard Tags Styles
+*/
+
+.button{
+  height: 25px;
+  font-size: 12px;
+  line-height: 26px;
+  vertical-align: middle;
+  padding: 1px 11px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
