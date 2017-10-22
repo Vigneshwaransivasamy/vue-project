@@ -1,19 +1,17 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-// import App from '../App'
 
-import Header from '../components/Header'
-
-// import HomePage from '../pages/HomePage'
+import HomePage from '../pages/HomePage'
 
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
-      name: 'Header',
-      component: Header
+      name: 'HomePage',
+      component: HomePage
     }
   ]
 })
