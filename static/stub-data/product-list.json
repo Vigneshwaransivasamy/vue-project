@@ -1,0 +1,44 @@
+{
+  "productList":[
+    {
+      "name": "Belt",
+      "productId": "PROD_1",
+      "productSlug": "belt",
+      "imageSrc": [
+        "https://d2zv4gzhlr4ud6.cloudfront.net/media/pictures/tagged_items/540x0/293_BSD10/1.jpg"
+      ]
+    },
+    {
+      "name": "Jerkin",
+      "productId": "PROD_2",
+      "productSlug": "jerkin",
+      "imageSrc": [
+        "https://assets.myntassets.com/h_640,q_90,w_480/v1/assets/images/1583684/2016/11/10/11478766536803-ALCOTT-Navy-Hooded-Jacket-8561478766536578-1.jpg"
+      ]
+    },
+    {
+      "name": "Shoes",
+      "productId": "PROD_2",
+      "productSlug": "jerkin",
+      "imageSrc": [
+        "https://assets.myntassets.com/h_640,q_90,w_480/v1/assets/images/1583684/2016/11/10/11478766536803-ALCOTT-Navy-Hooded-Jacket-8561478766536578-1.jpg"
+      ]
+    },
+    {
+      "name": "Purse",
+      "productId": "PROD_3",
+      "productSlug": "purse",
+      "imageSrc": [
+        "https://assets.myntassets.com/h_640,q_90,w_480/v1/assets/images/1721429/2017/1/13/11484308323337-Berrypeckers-Gold-Toned-Quilted-Clutch-801484308323206-1.jpg"
+      ]
+    },
+    {
+      "name": "Bags",
+      "productId": "PROD_4",
+      "productSlug": "bags",
+      "imageSrc": [
+        "https://assets.myntassets.com/h_640,q_90,w_480/v1/assets/images/1070866/2015/11/27/11448621424867-SWISS-MILITARY-Unisex-Blue-Large-Trolley-Bag-1241448621424348-1.jpg"
+      ]
+    }
+  ]
+}

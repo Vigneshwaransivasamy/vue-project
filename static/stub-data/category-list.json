@@ -1,0 +1,43 @@
+{
+  // "Belt":{
+  //   "category":[
+
+  //   ]
+  // },
+  // "Jerkin":{
+
+  // },
+  "Shoes":{
+    "categories":[
+      {
+        "name":"Snikers",
+        "count":10,
+        "productList":[{
+          "productName": "Red Sneakers",
+          "productId": "PROD__1",
+          "productSlug": "red-sneakers",
+          "price":"32",
+          "currencyType":"Doller",
+          "sizes":[5,6,7],
+          "imageSrc":"https://d2zv4gzhlr4ud6.cloudfront.net/media/pictures/tagged_items/270x0/358_320178BRN/1.jpg",
+          "colors":["#333","#fff","#888"]
+        }]
+      },
+      {
+        "name":"Formal Shoes",
+        "count":5
+      },
+      {
+        "name":"Sandals & Floaters",
+        "count":5
+      }
+    ],
+    "count":20
+  }
+  // "Purse":{
+
+  // },
+  // "Bags":{
+
+  // }
+}
